@@ -24,7 +24,7 @@ class FireController < ApplicationController
       @array_of_numbers.push(another_number)
     end
 
-    render({ :template => "flame_interface/cleo.html.erb" })
+    render({ :template => "flame_interface/leo.html.erb" })
   end
 
   def archer
@@ -38,6 +38,6 @@ class FireController < ApplicationController
       @array_of_numbers.push(another_number)
     end
 
-    render({ :template => "fire_interface/sagitarrius.html.erb" })
+    render({ :template => "flame_interface/sagittarius.html.erb" })
   end
 end
